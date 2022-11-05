@@ -1,3 +1,5 @@
+@import url("vendors/bootstrap.css");
+
 html {
     font-size: 100%;
     font-family: Arial, sans-serif;
@@ -222,9 +224,6 @@ html, body {
     font-family: inherit;
     font-weight: bold;
     background: no-repeat calc(100% - 1rem) 50% #FFD93E url(assets/arrow-down.svg);
-
-
-    
     appearance: none;
 }
 
@@ -276,7 +275,7 @@ html, body {
     display: flex;
     gap: 0.9375rem;
     height: 20.6875rem;
-    background: no-repeat 50% 50% url(assets/bg@2x.avif);
+    background: no-repeat 50% 50% url(assets/bg@2x.png);
     /*background-size: cover;*/
     background-size: 1260px;
     border-radius: 1.25rem;
@@ -458,20 +457,18 @@ html, body {
 
 .event__icon_temp {
     background-image: url(assets/icon_temperature.svg);
-    filter: grayscale(1);
 }
 
 .event__icon_temp2 {
-    background-image: url(assets/icon_temperature.svg);
+    background-image: url(assets/icon_temperature_2.svg);
 }
 
 .event__icon_light {
     background-image: url(assets/icon_sun.svg);
-    filter: grayscale(1);
 }
 
 .event__icon_light2 {
-    background-image: url(assets/icon_sun.svg);
+    background-image: url(assets/icon_sun_2.svg);
 }
 
 .event__icon_schedule {
