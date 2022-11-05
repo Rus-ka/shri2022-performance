@@ -454,7 +454,9 @@ html, body {
 }
 
 .event__icon_temp {
-    background-image: url(assets/icon_temperature.svg);
+    background-image: url(assets/icon_temperature_2.svg);
+    filter: grayscale(1);
+
 }
 
 .event__icon_temp2 {
@@ -462,7 +464,9 @@ html, body {
 }
 
 .event__icon_light {
-    background-image: url(assets/icon_sun.svg);
+    background-image: url(assets/icon_sun_2svg);
+    filter: grayscale(1);
+
 }
 
 .event__icon_light2 {
